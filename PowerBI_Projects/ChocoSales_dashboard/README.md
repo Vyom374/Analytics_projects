@@ -1,54 +1,70 @@
-PowerBI_dashboard
-Awesome Chocolate Sales Analytics Dashboard
 
-This project involves the creation of a comprehensive Power BI dashboard for a fictional chocolate company, Awesome Chocolate. The dashboard provides insights into chocolate sales analytics, including sales performance, costs, profits, and key performance indicators (KPIs). The data model is structured using a star schema, consisting of a central fact table (Shipments) and four dimension tables (Salesperson, Product, Geography, and Calendar).
+### **🍫 Awesome Chocolate Sales Analytics Dashboard**  
 
-Key Features:
+This project involves the creation of a comprehensive **Power BI dashboard** for a fictional chocolate company, **Awesome Chocolate**. The dashboard provides insights into **sales performance, costs, profits, and key performance indicators (KPIs)** using an interactive and visually appealing design.  
 
-Data Modeling:
+---
 
-Utilizes a star schema with five tables.
-Fact table: Shipments.
-Dimension tables: Salesperson, Product, Geography, Calendar.
-Dashboard Design:
+## **📊 Key Features**  
 
-Interactive dashboard showcasing key metrics.
-Visualizations include cards for total sales, total boxes, total shipments, total costs, total profit, and profit percentage.
-Dynamic trend charts for visualizing sales over time.
-DAX Measures:
+### **📌 Data Modeling**
+- Utilizes a **star schema** with five tables:
+  - **Fact Table:** `Shipments`
+  - **Dimension Tables:** `Salesperson`, `Product`, `Geography`, `Calendar`
 
-Total Sales, Total Boxes, Total Shipments, Total Costs, Total Profit, and Profit Percentage calculations.
-Low Box Shipments analysis (count and percentage).
-Month-on-Month changes for key metrics.
-Visual Elements:
+### **📌 Dashboard Design**
+- **Interactive** dashboard showcasing key metrics.
+- **Visualizations include:**
+  - KPI Cards for **Total Sales, Total Boxes, Total Shipments, Total Costs, Total Profit, and Profit Percentage**.
+  - **Dynamic trend charts** to visualize sales over time.
 
-KPI cards with conditional formatting.
-Tooltips, bookmarks, and dynamic trend charts.
-Grouping and histogram features for shipment analysis.
-User Interaction:
+### **📌 DAX Measures**
+- Key calculations include:
+  - `Total Sales`, `Total Boxes`, `Total Shipments`, `Total Costs`, `Total Profit`, `Profit Percentage`
+  - **Low Box Shipments Analysis** (count and percentage).
+  - **Month-on-Month changes** for key metrics.
 
-Field parameters for selecting different measures in trend analysis.
-Slicers for filtering data based on user selections.
-Setup Instructions:
+### **📌 Visual Elements**
+- **KPI Cards** with conditional formatting.
+- **Tooltips, bookmarks**, and **dynamic trend charts**.
+- **Grouping & histogram features** for shipment analysis.
 
-Download Sample Data:
+### **📌 User Interaction**
+- **Field parameters** for selecting different measures in trend analysis.
+- **Slicers** for filtering data based on user selections.
 
-Access the sample data files from the provided link in the video description.
-Power BI Desktop:
+---
 
-Open Power BI Desktop and import the Excel data file containing the shipments and dimension tables.
-Data Transformation:
+## **🛠 Setup Instructions**  
 
-Use Power Query to clean and transform the data if necessary.
-Create Measures:
+### **1️⃣ Download Sample Data**  
+- Access the sample data files from the provided link in the **video description**.
 
-Define DAX measures for sales, costs, profits, and other KPIs.
-Design Dashboard:
+### **2️⃣ Power BI Desktop**
+- Open **Power BI Desktop** and **import** the Excel data file containing shipments and dimension tables.
 
-Arrange visuals on the report page, ensuring a clear and user-friendly layout.
-Publish:
+### **3️⃣ Data Transformation**
+- Use **Power Query** to clean and transform the data if necessary.
 
-Save and publish the Power BI report to share insights with stakeholders.
-Conclusion:
+### **4️⃣ Create Measures**
+- Define **DAX measures** for sales, costs, profits, and other KPIs.
 
-This Power BI dashboard serves as a powerful tool for analyzing sales performance in the chocolate industry. By leveraging data visualization techniques, I gained valuable insights into sales trends, product performance, and overall business health.
+### **5️⃣ Design Dashboard**
+- Arrange **visuals on the report page**, ensuring a clear and user-friendly layout.
+
+### **6️⃣ Publish**
+- Save and **publish** the Power BI report to share insights with stakeholders.
+
+---
+
+## **📌 Conclusion**  
+
+This **Power BI dashboard** serves as a powerful tool for **analyzing sales performance in the chocolate industry**. By leveraging **data visualization techniques**, I gained valuable insights into **sales trends, product performance, and overall business health**.  
+
+---
+
+### **⭐ If you found this project helpful, don't forget to star the repo!**  
+
+---
+
+This README provides a **structured, professional, and engaging** layout perfect for GitHub. Let me know if you need further modifications! 🚀
